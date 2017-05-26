@@ -5,21 +5,23 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="build/js/app.js"></script>
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
   <title>Git-User-Lookup</title>
 </head>
 
 <body>
-  <div class="container">
+  <div class="hdr container">
     <h1>Check your github info!</h1>
     <div class="box">
       <label for="username">Enter your github username:</label>
       <input id="username" type="text">
       <button class="button" id="repoInfo">Submit</button>
+      <h2> User info </h2>
+      <ul id="showRepos"></ul>
+      <h3> Repository information</h3>
+        <ul id="showName"></ul>
     </div>
   </div>
-  <h2> User info </h2>
-  <h2 id="showRepos"></h2>
-  <h3> Repository information</h3>
-    <ul id="showName"></ul>
+
 </body>
 </html>
