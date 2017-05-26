@@ -1,3 +1,5 @@
-.env/
+.env
 bower_components/
 node_modules/
+build/
+tmp/
